@@ -1,5 +1,3 @@
-// src/components/Contact.jsx
-// import React, { useState } from 'react';
 import { useState } from 'react';
 
 const Contact = () => {
@@ -22,7 +20,7 @@ const Contact = () => {
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-      // Handle form submission (e.g., send an email)
+      // Handle form submission here
     }
   };
 

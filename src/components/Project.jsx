@@ -1,4 +1,3 @@
-// src/components/Project.jsx
 import PropTypes from 'prop-types';
 
 const Project = ({ title, image, deployedLink, repoLink }) => {
@@ -14,7 +13,6 @@ const Project = ({ title, image, deployedLink, repoLink }) => {
   );
 };
 
-// Adding PropTypes for validation
 Project.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
